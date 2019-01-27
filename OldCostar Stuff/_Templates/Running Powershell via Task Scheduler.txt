@@ -1,0 +1,11 @@
+This supports calling powershell from Task Scheduler
+
+Features:
+
+- Running powershell.exe from anywhere (like a CMD prompt, or task manager)
+- Calls a .ps1 script
+- Allows for named arguments -f5Host, etc
+
+
+powershell "& 'C:\scripts\fullpathtoscript\script.ps1'" ""-f5host usdc-ltm-tst-mgmt"" ""-psCredPath .\F5-TestEnv.xml""
+							   ^^ first named param		^^ second named param
