@@ -5,3 +5,5 @@ foreach ($element in $myList) {
   ping $element
 }
 
+
+foreach ($thing in $mylist){write-host $thing}
