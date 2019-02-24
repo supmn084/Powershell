@@ -7,6 +7,7 @@ Get-ADComputer -Filter "Name -Like '*DC'"
 
 $_.Responding -eq $false
 
+
 #Get service where status is running
 Get-Service |Where-Object -FilterScript { $_.status -eq 'Running'}
 #Short Version of Command Above
