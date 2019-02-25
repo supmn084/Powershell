@@ -14,4 +14,9 @@ Invoke-Command -ComputerName PowershellVM -Command {get-eventlog Security -Newes
 Invoke-Command -ComputerName {dir} -ComputerName (Get-Content webservers.txt)
 #try it with AD parameters
 Invoke-Command -Command   {dir} -ComputerName (Get-ADComputer -Filter * -SearchBase "Ou=sales,dc=company,dc=pri"|Select-Object -Expand Name)
+#Running stuff on remote computers
+Invoke-Command -ComputerName PowershellVM -Command {Get-Process -Name Notepad|Stop-Process} -Credential $cred
+#Get running process stuff difference local vs remote
+Invoke-Command -ScriptBlock {Get-Service|Get-Member} -ComputerName PowerShellVM  -Credential $cred
+
 
