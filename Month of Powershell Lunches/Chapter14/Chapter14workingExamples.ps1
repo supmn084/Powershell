@@ -4,3 +4,6 @@ Get-CimInstance -Namespace root\securitycenter2 -ClassName AntiSpywareProduct
 Get-WmiObject win32_service | where {$_.state -eq 'running'}
 #Get contents of core OS and Hardware stuff
 Get-WmiObject -Namespace root\CIMv2 -List |where name -Like '*dis*'
+Test-object
+
+Testing Git Branches
