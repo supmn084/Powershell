@@ -7,3 +7,9 @@ Get-WmiObject -Namespace root\CIMv2 -List |where name -Like '*dis*'
 Test-object
 
 Testing Git Branches
+testing merge Branches
+yay 
+yay
+yay
+yay
+yay
