@@ -29,3 +29,7 @@ git merge branchname
 git push
 
 testing pushes here
+git checkout mynameblahblah
+make changes
+git commit
+git push origin branchnamehere
