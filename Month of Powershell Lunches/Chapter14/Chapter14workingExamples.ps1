@@ -33,3 +33,4 @@ git checkout mynameblahblah
 make changes
 git commit
 git push origin branchnamehere
+Test-NfsMappingStore
