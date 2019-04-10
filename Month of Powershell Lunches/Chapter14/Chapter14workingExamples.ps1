@@ -24,4 +24,8 @@ Using Git Lense
 
 git pull
 git checkout -b testagain
+git checkout master
+git merge branchname
+git push
 
+testing pushes here
