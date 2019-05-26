@@ -30,4 +30,18 @@ $objects.ChangeStartMode('Disabled')
 # New way to get services
 $services = Get-Service
 $firstname = "$Services[0].name"
+# that makes jumbled stuff below runs it better
+$services = Get-Service
+$firstname = "The first name is $($services[0].name)"
+# Declaring a variable type
+$number = Read-Host "Enter a number"
+#make the user input a number
+$number = $number * 10
+#doesn't read this as an actual int, we have to make it so
+[int]$number = Read-Host "Enter a number"
+$number|Get-Member #To find the strings we need to edit
+$number = $number * 10
+
+
+
 
