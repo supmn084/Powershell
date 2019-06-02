@@ -1,4 +1,3 @@
-#Scripting Example query gets the device id, free space, total size in gb, then total percentage free local host will be default unless the user specifies otherwise when runniing
 <#
 .SYNOPSIS
 Get-DiskInventory retrieves the logical disk information from one or more computers
