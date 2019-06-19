@@ -17,5 +17,5 @@ Nothing needed here.
 
 ## Acknowledgments
 
-*Books by Ed Wilson, James Hicks and various snippets found online.
-*Thanks for reading to this point
+Books by Ed Wilson, James Hicks and various snippets found online.
+Thanks for reading to this point
