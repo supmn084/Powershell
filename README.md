@@ -1,7 +1,7 @@
 # Powershell
-Powershell Scripts
+Chris's Random Powershell Scripts
 
-This is a repo where I have examples from books, sites, other dumps, and home frankenstein scripts I've created for fun. Heavily influenced by random bits of my day to day career or stuff I've found online and thought was fun to tinker with in my home lab.
+This is a repo where I have examples from books, sites, other dumps, and home frankenstein scripts I've created for fun. Heavily influenced by random bits of my day to day career or stuff I've found online and thought was fun to tinker with in my home lab. (this is mainly used to test things in git, and to test some lower level powershell scripts, and ideas out to help out my work life. 
 
 ## Getting Started
 
@@ -13,7 +13,7 @@ This assumes you have a windows 10 PC running powershell 5 or above, and a pulse
 
 ## License
 
-Nothing needed here. 
+Nothing needed here. It's powershell...it's free.
 
 ## Acknowledgments
 
