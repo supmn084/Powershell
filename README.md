@@ -1,7 +1,7 @@
 # Powershell
 Powershell Scripts
 
-This is a repo where I have examples from books, sites, other dumps, and home frankenstein scripts I've created for fun. Heavily influenced by James Hicks, and Ed Wilson walkthroughs. 
+This is a repo where I have examples from books, sites, other dumps, and home frankenstein scripts I've created for fun. Heavily influenced by random bits of my day to day career or stuff I've found online and thought was fun to tinker with in my home lab.
 
 ## Getting Started
 
