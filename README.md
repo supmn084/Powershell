@@ -13,9 +13,9 @@ This assumes you have a windows 10 PC running powershell 5 or above, and a pulse
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+Nothing needed here. 
 
 ## Acknowledgments
 
-*Ed Wilson, James Hicks and various snippets found online.
+*Books by Ed Wilson, James Hicks and various snippets found online.
 *Thanks for reading to this point
