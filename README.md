@@ -11,7 +11,6 @@ Feel free to clone this repo with whatever flavor or method of git you like to u
 git clone https://github.com/supmn084/Powershell.git
 ```
 
-
 ### Prerequisites
 
 This assumes you have a windows 10 PC running powershell 5 or above, and a pulse. 
@@ -19,6 +18,12 @@ This assumes you have a windows 10 PC running powershell 5 or above, and a pulse
 ## License
 
 Nothing needed here. It's powershell...it's free.
+
+## Built With
+
+* [Visual Studio Code](https://visualstudio.microsoft.com/) - My IDE of choice
+* [GitLens](https://gitlens.amod.io/) - The best VS Code extension for git Repos
+* [PowerShell Command Explorer Add On](https://code.visualstudio.com/docs/languages/powershell) - Used to to teach Vs Code how to use Powershell
 
 ## Acknowledgments
 
