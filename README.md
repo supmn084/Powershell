@@ -17,7 +17,7 @@ This assumes you have a windows 10 PC running powershell 5 or above, and a pulse
 
 ### Folder Layout
 
-A lot of this repo has folders for various powershell or other scripting languag books where I have the working examples through the chapters, and the quizes at the end. You'll want to look into other folders aside from those for other scripts and little items or examples I've made
+A lot of this repo has folders for various powershell or other scripting language books where I have the working examples through the chapters, and the quizes at the end. You'll want to look into other folders aside from those for other scripts and little items or examples I've made
 
 ## License
 
