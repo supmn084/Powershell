@@ -7,6 +7,11 @@ This is a repo where I have examples from books, sites, other dumps, and  franke
 
 Feel free to clone this repo with whatever flavor or method of git you like to use. 
 
+```
+git clone https://github.com/supmn084/Powershell.git
+```
+
+
 ### Prerequisites
 
 This assumes you have a windows 10 PC running powershell 5 or above, and a pulse. 
