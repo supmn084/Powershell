@@ -17,5 +17,6 @@ Nothing needed here. It's powershell...it's free.
 
 ## Acknowledgments
 
-Books by Ed Wilson, James Hicks and various snippets found online.
-Thanks for reading to this point
+* Books by Ed Wilson, James Hicks and various snippets found online.
+* Thanks for reading to this point
+* Bits and bobs of scripts and examples found online may be chopped into pieces here and there. 
