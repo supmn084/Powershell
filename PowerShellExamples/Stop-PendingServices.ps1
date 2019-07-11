@@ -20,3 +20,7 @@ Function Stop-PendingServices {
     }
 
 }
+
+#ToDO - Spit out services found in the state we want
+# present those services to the user, Enter Y or N to kill them. 
+# Spit out successful kill note. 
