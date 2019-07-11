@@ -7,8 +7,10 @@ $servers = $SearchPath.Name
 #Selects only the servernames from the AD search above.
 $results = @()
 #Array to store our goodies
+$Total = $searchpath.count
 
 Write-Output "Running Port Tests on $ports"
+Write-Output "Running port tests on $total number of servers"
 
 foreach ($s in $servers) {
     foreach ($p in $ports) {
@@ -23,6 +25,6 @@ foreach ($s in $servers) {
             })
     }
 }
-Write-Output "Done!"
+Write-Output "Done!!"
 Write-Output $results | Out-GridView
 #Remote the Out-GridView if you want it to show in your PS window. This makes it a little more usable. 
