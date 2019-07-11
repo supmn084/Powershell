@@ -4,7 +4,7 @@ Function Stop-PendingServices {
     Param
     (
         #Servername you want to run this on, or server(s)
-        [Parameter(Position = 1)]
+        [Parameter(Mandantory = $True, Position = 1)]
         [String]$ServerName,
         
         #ServiceName, if you have a service name in mind you want to stop. 
@@ -18,7 +18,17 @@ Function Stop-PendingServices {
         Stop-Process $ServicePID -Force
         
     }
+    #User Interaction draft to ask for confirmation if services want to be stopped or not. DRAFT
+    $message = 'Found Services To Stop'
+    $question = 'Are you sure you wish to stop these services?'
+    $choices = '&Yes', '&No'
 
+    $decision = $Host.UI.PromptForChoice($message, $question, $choices, 1)
+    if ($decision -eq 0) {
+        Write-Host 'Stopping Services'
+    } else {
+        Write-Host 'cancelled'
+    }
 }
 
 #ToDO - Spit out services found in the state we want
