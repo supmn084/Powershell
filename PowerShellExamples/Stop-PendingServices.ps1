@@ -27,7 +27,7 @@ Function Stop-PendingServices {
     if ($decision -eq 0) {
         Write-Host 'Stopping Services'
     } else {
-        Write-Host 'cancelled'
+        Write-Host 'Terminated Script'
     }
 }
 
